@@ -3,8 +3,11 @@
 Make sure to set this Env Variables:
 
 **ENVIRONMENT**: will be used as prefix for redis key (pro/sta/dev)
+
 **REDIS_PREFIX**: extra prefix after the ENVIRONMENT var
+
 **REDIS_HOST**
+
 **REDIS_KEY**
 
 Will use secure port 6380, not configurable!
