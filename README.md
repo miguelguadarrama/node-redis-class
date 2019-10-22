@@ -15,7 +15,7 @@ Will use secure port 6380, not configurable!
 ```javascript
 const Redis = require('./redis')
 // ...
-function getData() {
+const getData = async () => {
     const redis = new Redis();
     let cached = await redis.getFromCache(`MY_REDIS_OBJECT_KEY`);
     if(cached){
