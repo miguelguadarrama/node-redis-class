@@ -1,0 +1,11 @@
+{
+  "name": "node-redis-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "miguelguadarrama@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
